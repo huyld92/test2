@@ -1,0 +1,41 @@
+export const PAGE_ROUTES = {
+  HOME: "/charts",
+  USERS: "/users",
+  INGREDIENTS: "/ingredients",
+  INVENTORY: "/inventory",
+  FEEDBACK: "/feedback",
+  SERVICES: "/services",
+  CHATTING: "/chatting",
+  BLOG: "/blog",
+  FOOD: "/food",
+  MENU: "/menu",
+  EXERCISE: "/exercise",
+  WORKOUT: "/workout",
+  PLAN: "/plan",
+  CERTIFICATE: "/certificate",
+  AUTH: {
+    LOGIN: "/auth/login",
+    SIGNUP: "/auth/sign-up",
+  },
+  TRAINER: {
+    USERS: "/trainer/users",
+    MENU: "/trainer/menus",
+    BLOG: "/trainer/blogs",
+    SERVICES: "/trainer/services",
+    COMMISSION: "trainer/commission",
+  },
+  MANAGER: {
+    INGREDIENTS: "/ingredients",
+    FOOD: "/food",
+    MENU: "/menu",
+    EXERCISE: "/exercise",
+    WORKOUT: "/workout",
+    SUBSCRIPTION: "/subscription",
+    ADVISOR: "/advisor",
+
+  },
+
+  VERIFY_SUCCESS: "verification-success",
+  VERIFY_FAILED: "verification-failed",
+  VERIFY_ACCOUNT: "account-verified",
+};
